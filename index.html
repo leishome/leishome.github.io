@@ -11,6 +11,8 @@
   h1 { margin: 0; } header p { margin: .3rem 0 0; opacity: .9; }
   main { padding: 1.5rem; } a { color: #159957; }
   .card { border: 1px solid #e6e5e1; border-radius: 10px; padding: 14px 18px; margin: 12px 0; }
+  .card { display: flex; gap: 14px; align-items: center; }
+  .card p { margin: 0; }
   .card h2 { margin: 0 0 4px; font-size: 1.1rem; }
   @media (prefers-color-scheme: dark) { body { background: #1a1a19; color: #c3c2b7; } .card { border-color: #343432; } a { color: #2fbf7a; } }
 </style>
@@ -19,9 +21,10 @@
 <header><div class="w"><h1>Leishome</h1><p>Open resources for <i>Leishmania</i> genomics</p></div></header>
 <main><div class="w">
   <div class="card">
-    <h2><a href="leishref/">Leishref</a></h2>
+    <img src="leishref/logo.svg" alt="" width="48" height="48">
+    <div><h2><a href="leishref/">Leishref</a></h2>
     <p>Searchable catalog of <i>Leishmania</i> reference genomes, with a CLI to install and curate them.
-    <a href="https://github.com/leishome/leishref">Source on GitHub</a>.</p>
+    <a href="https://github.com/leishome/leishref">Source on GitHub</a>.</p></div>
   </div>
 </div></main>
 </body>
